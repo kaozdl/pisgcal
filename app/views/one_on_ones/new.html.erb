@@ -1,0 +1,10 @@
+<h1>OneOnOnes#new</h1>
+
+<%= form_for @one_on_one do |f| %>
+  <%= f.label :manager %>
+  <%= f.text_field :manager %>
+  <%= f.label :employee %>
+  <%= f.text_field :employee %>
+  
+  <%= submit_tag('Save') %>
+<% end %>

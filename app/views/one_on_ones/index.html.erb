@@ -1,0 +1,10 @@
+<h1>OneOnOnes#index</h1>
+<tbody>
+  <% @one_on_ones.each do |one_on_one| %>
+    <tr>
+      <td><%= one_on_one.id %></td>
+      <td><%= one_on_one.employee_id %></td>
+      <td><%= one_on_one.manager_id %></td>
+    </tr>
+  <% end %>
+</tbody>
